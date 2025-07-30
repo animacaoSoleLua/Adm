@@ -1,0 +1,65 @@
+site_name: Automação SL
+
+site_description: Documentação para se tornar um bom recreador.
+
+nav:
+  - Início: index.md
+  
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - navigation.sections
+    - navigation.indexes
+    - navigation.instant
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.pills
+    - navigation.expand
+    - navigation.tracking
+    - content.code.annotate
+    - content.code.highlight
+    - content.code.linenumbers
+    - content.footnotes
+    - content.heading.permalinks
+    - content.heading.anchor
+    - content.heading.toc
+
+  language: pt
+
+  font:
+    text: "Roboto"
+    code: "sans-serif"
+
+  palette:
+    - scheme: slate 
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: purple
+      accent: black
+
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+      primary: "#03161A"
+      accent: black
+
+  logo: img/SL.png
+  favicon: img/SL.png
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: false
+      clickable_checkbox: true
