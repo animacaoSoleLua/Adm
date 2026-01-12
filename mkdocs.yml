@@ -1,6 +1,6 @@
 site_name: Automação SL
 
-site_description: Documentação para se tornar um bom recreador.
+site_description: Documentação para automação.
 
 nav:
   - Início: index.md
